@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    header {
+        background-color: #927373;
+        color: white;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Flipkart {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    nav {
+        display: flex;
+        gap: 14px;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        padding: 8px 16px;
+    }
+    nav a:hover {
+        background-color: #575757;
+        border-radius: 4px;
+    }
+    @media (max-width: 600px) {
+        header {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        nav {
+            flex-direction: column;
+            width: 100%;
+        }
+        nav a {
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+        }
+    }
+</style>
+</head>
+<body>
+<header>
+    <div class="Flipkart">FLIPKART</div>
+    <nav>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Services</a>
+        <a href="">Contact</a>
+    </nav>
+</header>
+</body>
+</html>
